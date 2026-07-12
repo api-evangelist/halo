@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://developer.haloapi.com/
 common:
+  - type: DomainSecurity
+    url: security/halo-domain-security.yml
   - type: Website
     url: https://developer.haloapi.com/
   - type: PublicAPIsListing
