@@ -34,13 +34,13 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
   - Public APIs
+  - Gaming
+  - Video Games
 apis:
   - name: Halo
     description: "Halo 5 and Halo Wars 2 Information"
     humanURL: https://developer.haloapi.com/
-    baseURL: https://developer.haloapi.com/
     tags:
       - Games And Comics
     properties:
@@ -56,3 +56,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Games And Comics
