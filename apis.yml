@@ -41,7 +41,8 @@ apis:
   - name: Halo
     description: "Halo 5 and Halo Wars 2 Information"
     humanURL: https://developer.haloapi.com/
-    tags:
+    tags: []
+    tags_raw:
       - Games And Comics
     properties:
       - type: Documentation
