@@ -1,0 +1,71 @@
+edges:
+- partner_name: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: third-party
+  evidence: https://apis.guru/
+  category: API definition directory listing (OpenAPI)
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: haloapi.com
+    matched_domain: haloapi.com
+    matched_by: domain
+    apis_listed: 4
+    version_count: 4
+    first_added: '2017-11-27'
+    last_updated: '2021-06-21'
+    origin_publisher_hosted: true
+    origin_hosts:
+    - developer.haloapi.com
+    categories:
+    - entertainment
+    own_openapi_files: 0
+    listings:
+    - key: haloapi.com:metadata
+      title: Metadata
+      preferred: '1.0'
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/haloapi.com/metadata/1.0/swagger.json
+      origin_url: https://developer.haloapi.com/docs/services/58ace18c21091812784ce8c5/export?DocumentFormat=Swagger
+      openapi_version: '2.0'
+    - key: haloapi.com:profile
+      title: Profile
+      preferred: '1.0'
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/haloapi.com/profile/1.0/swagger.json
+      origin_url: https://developer.haloapi.com/docs/services/58acdc2e21091812784ce8c2/export?DocumentFormat=Swagger
+      openapi_version: '2.0'
+    - key: haloapi.com:stats
+      title: Stats
+      preferred: '1.0'
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/haloapi.com/stats/1.0/swagger.json
+      origin_url: https://developer.haloapi.com/docs/services/58acdf27e2f7f71ad0dad84b/export?DocumentFormat=Swagger
+      openapi_version: '2.0'
+    - key: haloapi.com:ugc
+      title: UGC
+      preferred: '1.0'
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/haloapi.com/ugc/1.0/swagger.json
+      origin_url: https://developer.haloapi.com/docs/services/58acde2921091812784ce8c3/export?DocumentFormat=Swagger
+      openapi_version: '2.0'
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  detected_by: sweep-openapi-directory-apis-guru.py
+  first_seen: '2026-10-22'
+generated: '2026-10-22'
+method: searched
+source:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
+checked:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
